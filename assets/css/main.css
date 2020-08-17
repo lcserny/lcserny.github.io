@@ -43,6 +43,21 @@ html, body {
     line-height: 0;
     font-size: 35px;
     font-family: LatoThin;
-    color: #888;
     text-shadow: 0 2px 3px #555;
+}
+
+.main-content-name {
+    color: #bbb;
+}
+
+.main-content-name:hover {
+    color: #888;
+}
+
+.main-content-type {
+    color: #888;
+}
+
+.main-content-type:hover {
+    color: #bbb;
 }
