@@ -17,7 +17,7 @@ html, body {
     width: 100%;
 }
 
-.main {
+#main {
     background-color: #4d4d4d;
     height: var(--main-size);
     width: var(--main-size);
@@ -32,12 +32,12 @@ html, body {
     border: 1px solid white;
 }
 
-.main:hover {
+#main:hover {
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
     cursor: pointer;
 }
 
-.main-content {
+#main-content {
     display: inline-block;
     vertical-align: middle;
     line-height: 0;
@@ -46,18 +46,20 @@ html, body {
     text-shadow: 0 2px 3px #555;
 }
 
-.main-content-name {
-    color: #bbb;
+#main-content #main-content-name {
+    color: #ccc;
+    transition: all 1s cubic-bezier(.25,.8,.25,1);
 }
 
-.main-content-name:hover {
+#main-content.hover #main-content-name {
     color: #888;
 }
 
-.main-content-type {
+#main-content #main-content-type {
     color: #888;
+    transition: all 1s cubic-bezier(.25,.8,.25,1);
 }
 
-.main-content-type:hover {
-    color: #bbb;
+#main-content.hover #main-content-type {
+    color: #ccc;
 }
