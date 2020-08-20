@@ -10,6 +10,7 @@
 
 #main {
     --main-size: 500px;
+    --main-font-size: 35px;
 
     background-color: #4d4d4d;
     height: var(--main-size);
@@ -34,7 +35,7 @@
     display: inline-block;
     vertical-align: middle;
     line-height: 0;
-    font-size: 35px;
+    font-size: var(--main-font-size);
     font-family: LatoThin;
     text-shadow: 0 2px 3px #555;
 }
