@@ -7,11 +7,6 @@
     --main-size: 400px;
 }
 
-html, body {
-    height: 100%;
-    min-height: 100%;
-}
-
 .container {
     height: 100%;
     width: 100%;
@@ -61,5 +56,29 @@ html, body {
 }
 
 #main-content.hover #main-content-type {
+    color: #ccc;
+}
+
+#main-content-cv {
+    color: #888;
+    position: absolute;
+    bottom: 150px;
+    left: 100px;
+    transition: all 1s cubic-bezier(.25,.8,.25,1);
+}
+
+#main-content-cv:hover {
+    color: #ccc;
+}
+
+#main-content-blog {
+    color: #888;
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    transition: all 1s cubic-bezier(.25,.8,.25,1);
+}
+
+#main-content-blog:hover {
     color: #ccc;
 }
